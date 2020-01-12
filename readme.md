@@ -3,6 +3,12 @@
 * Array to XML (``` XML::encode() ```)
 * XML to Array (``` XML::decode() ```)
 
+## How to install
+
+```
+composer require darkfriend/php5-xml
+```
+
 ## How to use
 
 ### Array to XML (encode)
