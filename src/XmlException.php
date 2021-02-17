@@ -4,7 +4,7 @@ namespace darkfriend\helpers;
 
 /**
  * Class XmlException
- * @package darkfriend\helpers
+ * @package darkfriend\php5-xml
  * @author darkfriend <hi@darkfriend.ru>
  * @version 1.0.0
  */
@@ -18,7 +18,7 @@ class XmlException extends \Exception
      * @param int $line
      * @param \Exception $previous
      */
-    public function __construct($message = "", $code = 0, $file = "", $line = 0, \Exception $previous = null)
+    public function __construct($message = "", $code = 0, $file = "", $line = 0, $previous = null)
     {
         parent::__construct($message, $code, $previous);
 
