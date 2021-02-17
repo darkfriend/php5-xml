@@ -5,6 +5,9 @@
 * Array to XML (``` XML::encode() ```)
 * XML to Array (``` XML::decode() ```)
 
+### Other php version
+* [Xml encode/decode for php7](https://github.com/darkfriend/php7-xml)
+
 ## How to install
 
 ```
